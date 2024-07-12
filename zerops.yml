@@ -65,7 +65,7 @@ zerops:
         CACHE_STORE: redis
         QUEUE_CONNECTION: redis
         REDIS_CLIENT: phpredis
-        REDIS_HOST: redis
+        REDIS_HOST: cache
         REDIS_PORT: 6379
         SESSION_DRIVER: redis
         SESSION_ENCRYPT: false
